@@ -96,7 +96,19 @@
 // $body-font-weight: $font-weight-normal;
 // $body-font-style: normal;
 // $body-antialiased: true;
-
+$primary-color: #000;
+$secondary-color: #ffe306;
+$body-background: $secondary-color;
+$breakpoints: (
+  small: rem-calc(600),
+  medium: rem-calc(900),
+  large: rem-calc(1200),
+  xlarge: rem-calc(1440),
+  xxlarge: rem-calc(1920),
+);
+$h1-font-size: rem-calc(80);
+$body-font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
+$header-font-family: "flood-std", Helvetica, sans-serif;
 // Application Colors
 // $primary-color: #00558b;
 // $secondary-color: #f1f1f1;
